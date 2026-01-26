@@ -33,14 +33,14 @@ Each sample contains a natural-language query, a structured answer list, and two
     {
       "rule_id": "...",
       "original_statement": "...",
-      "confidence_rating": 0.8,
+      "confidence_rating": 0-1,
       "detailed_reasoning": "..."
     }
   ]
 }
 ```
 
-See `data/examples/` for the 100-sample preview and field definitions.
+See `/benchmark/` for the 100-sample preview and field definitions.
 
 ## Intended use
 - Rule retrieval / ranking over `global_who_rules`
