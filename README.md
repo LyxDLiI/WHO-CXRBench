@@ -8,35 +8,26 @@ Due to the **MIMIC-CXR data-use agreement**, we cannot redistribute the full und
 For now, this repo includes:
 - **Rule corpus** (machine-readable WHO diagnostic rule statements)
 - **Original WHO source files** used to derive the rules
-- **100 de-identified samples** (JSON) to illustrate the data format and enable quick prototyping
+- **100 de-identified samples** (JSON/JSONL) to illustrate the data format and enable quick prototyping
 
 ## Data format (per sample)
+Each sample contains a natural-language query, a structured answer list, and two rule sets:
+- `global_who_rules`: corpus-level candidate rules (with IDs, disease names, and original statements)
+- `personal_who_rules`: sample-specific rules with `confidence_rating` and `detailed_reasoning`
 
 ```json
 {
-  "split": "train",
-  "idx": 152028,
-
+  "idx": 000001,
   "question": "Provide a catalogue of all anatomical findings and diseases seen.",
   "semantic_type": "query",
   "content_type": "attribute",
-
   "template": "Provide a catalogue of all ${category_1} and ${category_2} seen.",
   "template_program": "program_26",
   "template_arguments": { ... },
 
   "answer": ["...", "..."],
 
-  "global_who_rules": [
-    {
-      "rule_id": "...",
-      "disease": "...",
-      "original_statement": "...",
-      "source": "CXR_RULE",
-      "matched_answer": "...",
-      "mapped_who_disease": "..."
-    }
-  ],
+  "global_who_rules": [ ... ],
 
   "personal_who_rules": [
     {
@@ -45,11 +36,16 @@ For now, this repo includes:
       "confidence_rating": 0.8,
       "detailed_reasoning": "..."
     }
-  ],
-
-  "medical_report_found": true
+  ]
 }
 ```
+
+See `data/examples/` for the 100-sample preview and field definitions.
+
+## Intended use
+- Rule retrieval / ranking over `global_who_rules`
+- Confidence modeling / calibration using `confidence_rating`
+- Explainable alignment analysis via `detailed_reasoning`
 
 ## Status
 Full release is pending PhysioNet approval. Updates will be posted in this repository.
