@@ -48,7 +48,8 @@ See `/benchmark/` for the 100-sample preview and field definitions.
 - Explainable alignment analysis via `detailed_reasoning`
 
 ## Status
-Full release is pending PhysioNet approval. Updates will be posted in this repository.
+Full release is pending **PhysioNet** approval. Updates will be posted in this repository.
+We will release the automated construction pipeline (code and documentation) in a subsequent update.
 
 ## License
 - WHO source files: follow the original WHO terms.
