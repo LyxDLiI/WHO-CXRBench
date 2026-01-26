@@ -1,4 +1,4 @@
-# WHO-Grounded CXR Rule Retrieval Dataset (Preview)
+# WHO-CXRBench (Preview)
 
 This repository provides a **guideline-grounded dataset** for **fine-grained diagnostic rule retrieval and alignment** on chest radiography, built around WHO chest X-ray (CXR) guidelines.
 
