@@ -8,7 +8,7 @@ Due to the **MIMIC-CXR data-use agreement**, we cannot redistribute the full und
 For now, this repo includes:
 - **Rule corpus** (machine-readable WHO diagnostic rule statements)
 - **Original WHO source files** used to derive the rules
-- **100 de-identified samples** (JSON/JSONL) to illustrate the data format and enable quick prototyping
+- **100 de-identified samples** (JSON) to illustrate the data format and enable quick prototyping
 
 ## Data format (per sample)
 
