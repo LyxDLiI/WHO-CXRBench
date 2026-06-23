@@ -4,7 +4,7 @@ WHO-CXRBench is a guideline-grounded benchmark for fine-grained diagnostic rule 
 
 ## Current Release
 
-Because the full benchmark depends on MIMIC-CXR data governed by a data-use agreement, this public preview does not redistribute raw MIMIC-CXR images, reports, identifiers, or image paths. We are preparing the complete data release through the appropriate controlled-access channel.
+Because the full benchmark depends on MIMIC-CXR data governed by a data-use agreement, this public preview does not redistribute raw MIMIC-CXR images, reports, identifiers, or image paths. We are actively working toward releasing the complete dataset through PhysioNet (https://www.physionet.org/) using the appropriate controlled-access data-release process.
 
 This repository currently includes:
 
@@ -41,6 +41,8 @@ Each preview sample contains a natural-language query, answer labels, and two ru
 - `personal_who_rules`: sample-specific rules aligned to the original radiology report during offline construction.
 
 Raw MIMIC-CXR reports are not released. The preview samples preserve the output schema without exposing protected report text or MIMIC-CXR-JPG paths.
+
+Following the paper, the full evaluation set is built from disease-category entries in MIMIC-Ext-MIMIC-CXR-VQA, with images and paired reports sourced from MIMIC-CXR-JPG. The 100 records released here are a small de-identified schema preview from that benchmark construction protocol and are not intended for reproducing the reported performance metrics.
 
 ```json
 {
@@ -84,6 +86,11 @@ The released code implements a three-stage offline construction pipeline:
 | Stage 3 | `benchmark/code/stage3/` | Match retained WHO rules to report-derived evidence to produce `personal_who_rules`. | `deepseek-ai/DeepSeek-R1-0528-Qwen3-8B` served locally through vLLM or another OpenAI-compatible endpoint. |
 
 The code release is intentionally self-contained for reproducibility. API keys are read from environment variables and are not stored in the repository. MIMIC-CXR-JPG is referenced through the relative path `benchmark/code/data/mimic-cxr-jpg` or the environment variable `MIMIC_CXR_JPG_ROOT`.
+
+External data sources used by the full construction pipeline:
+
+- MIMIC-CXR-JPG v2.1.0: https://www.physionet.org/content/mimic-cxr-jpg/2.1.0/
+- MIMIC-Ext-MIMIC-CXR-VQA v1.0.0: https://physionet.org/content/mimic-ext-mimic-cxr-vqa/1.0.0/
 
 ## Quick Start
 
@@ -130,7 +137,7 @@ The final certainty rating is recomputed deterministically from those four score
 
 ## Status
 
-This repository is a public preview. The complete benchmark release is pending controlled-access data release approval. Updates will be posted in this repository.
+This repository is a public preview. The complete benchmark release is being prepared for PhysioNet controlled-access dataset release. Updates will be posted in this repository.
 
 ## License
 

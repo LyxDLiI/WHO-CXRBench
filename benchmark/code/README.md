@@ -100,6 +100,16 @@ export MIMIC_CXR_JPG_ROOT="data/mimic-cxr-jpg"
 
 Do not hard-code machine-specific absolute dataset paths in scripts, configs, or committed outputs.
 
+## External Dataset Sources
+
+The full WHO-CXRBench construction follows the paper's data protocol:
+
+- The WHO-derived rule corpus is constructed from the WHO chest radiography guideline text included in this code release.
+- CXR images and paired reports are sourced from MIMIC-CXR-JPG v2.1.0: https://www.physionet.org/content/mimic-cxr-jpg/2.1.0/
+- Evaluation samples are selected from entries whose category is `disease` in MIMIC-Ext-MIMIC-CXR-VQA v1.0.0: https://physionet.org/content/mimic-ext-mimic-cxr-vqa/1.0.0/
+
+The public `benchmark/WHO_CXRBench_100_samples.json` file is a de-identified schema preview selected from this disease-query construction protocol. It preserves the benchmark fields and split labels, but it does not include raw MIMIC-CXR reports, image paths, or protected identifiers and should not be used to reproduce the paper's full evaluation metrics.
+
 ## Run All Stages
 
 Use the centralized YAML config:
