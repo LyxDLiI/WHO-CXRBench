@@ -1,6 +1,6 @@
 # WHO-CXRBench Reproducible Pipeline Code
 
-This folder contains the open-source, reproducible code for the WHO-CXRBench construction stages:
+This folder is located at `benchmark/code/` in the repository and contains the reproducible code for the WHO-CXRBench construction stages:
 
 1. `stage1/`: Prior-guided WHO CXR guideline rule extraction.
 2. `stage2/`: GRADE-RA rule assessment and formalization.
@@ -11,7 +11,7 @@ The implementation is intentionally self-contained. It uses the WHO guideline ma
 ## Directory Layout
 
 ```text
-code/
+benchmark/code/
   README.md
   environment.yml
   requirements.txt
@@ -48,7 +48,7 @@ code/
 Create the conda environment:
 
 ```bash
-cd code
+cd benchmark/code
 conda env create -f environment.yml
 conda activate whocxrbench-pipeline
 ```
@@ -56,7 +56,7 @@ conda activate whocxrbench-pipeline
 Or install with pip:
 
 ```bash
-cd code
+cd benchmark/code
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -72,7 +72,7 @@ Do not write the key into tracked files.
 
 ## Dataset Paths
 
-All paths in this release are relative to the `code/` directory. The canonical path configuration is:
+All paths in this release are relative to the `benchmark/code/` directory. The canonical path configuration is:
 
 ```text
 config/pipeline.yml
@@ -87,9 +87,9 @@ data/mimic-cxr-jpg
 If the dataset lives elsewhere on your machine, keep the repository path relative by creating a symlink:
 
 ```bash
-cd code
+cd benchmark/code
 mkdir -p data
-ln -s ../external_datasets/MIMIC-CXR-JPG data/mimic-cxr-jpg
+ln -s ../../external_datasets/MIMIC-CXR-JPG data/mimic-cxr-jpg
 ```
 
 Alternatively set:
@@ -105,6 +105,7 @@ Do not hard-code machine-specific absolute dataset paths in scripts, configs, or
 Use the centralized YAML config:
 
 ```bash
+cd benchmark/code
 python run_pipeline.py --config config/pipeline.yml --dry-run
 ```
 
@@ -113,6 +114,7 @@ The dry run executes Stage 1, Stage 2, and Stage 3 without external LLM calls. I
 For API-backed Stage 1/2 plus local-vLLM Stage 3:
 
 ```bash
+cd benchmark/code
 export SILICONFLOW_API_KEY="..."
 python run_pipeline.py --config config/pipeline.yml
 ```
@@ -137,7 +139,7 @@ outputs/pipeline/stage3/stage3_matched_samples.json
 This runs Stage 1 for `Pectus excavatum`, then runs Stage 2 on one extracted CXR field:
 
 ```bash
-cd code
+cd benchmark/code
 python tests/smoke_test_pipeline.py
 ```
 

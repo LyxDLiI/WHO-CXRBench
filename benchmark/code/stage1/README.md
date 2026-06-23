@@ -5,7 +5,7 @@
 Example:
 
 ```bash
-cd code
+cd benchmark/code
 export SILICONFLOW_API_KEY="..."
 python stage1/run_stage1.py --disease "Pectus excavatum" --output outputs/stage1_pectus.json
 ```

@@ -2,6 +2,12 @@
 
 This directory contains the reproducible code release for stage3 LLM rule matching. Large model weights are not included; the LLM is referenced by Hugging Face model ID and can be served through vLLM or any compatible OpenAI-style chat-completions API.
 
+The commands below assume they are run from the repository root after entering `benchmark/code`:
+
+```bash
+cd benchmark/code
+```
+
 ## Layout
 
 - `smart_rule_matcher_local.py`: LLM-based report-to-rule semantic matching.
@@ -17,7 +23,7 @@ This directory contains the reproducible code release for stage3 LLM rule matchi
 Create the environment from the exported YAML:
 
 ```bash
-conda env create -f environment/environment.yml
+conda env create -f stage3/environment/environment.yml
 conda activate ms-swift
 ```
 

@@ -77,14 +77,14 @@ Stage3 requests used deterministic decoding:
 Start the model server:
 
 ```bash
-cd code
+cd benchmark/code
 bash stage3/serve_vllm.sh
 ```
 
 In another shell, run:
 
 ```bash
-cd code
+cd benchmark/code
 python stage3/tests/api_smoke_test.py \
   --server-url http://localhost:8000 \
   --model deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
@@ -97,7 +97,7 @@ The smoke test sends a tiny synthetic radiology report and one synthetic rule to
 Prepare local report data and input samples, then run:
 
 ```bash
-cd code
+cd benchmark/code
 export MIMIC_CXR_JPG_ROOT=data/mimic-cxr-jpg
 python stage3/optimized_batch_processor_local.py \
   --input examples/stage3_samples.json \
