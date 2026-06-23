@@ -1,0 +1,6 @@
+{
+  "who_guideline_markdown": "data/chest_x_ray_imaging.md",
+  "default_disease_list": "data/default_diseases.txt",
+  "disease_hierarchy_mapping": "data/abnormalitiesDisease4WHO.txt",
+  "mimic_cxr_jpg_root": "data/mimic-cxr-jpg"
+}

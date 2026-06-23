@@ -1,0 +1,31 @@
+# 本地VLLM部署依赖包
+
+# VLLM核心依赖
+vllm>=0.2.0
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# 基础依赖
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# 数据处理
+numpy>=1.24.0
+requests>=2.31.0
+tqdm>=4.65.0
+
+# JSON处理
+jsonschema>=4.17.0
+
+# 日志和工具
+logging-handlers>=1.0.0
+pathlib2>=2.3.7
+
+# 可选：性能优化
+flash-attn>=2.0.0  # 需要CUDA环境
+xformers>=0.0.20   # 可选的注意力优化
+
+# 系统工具
+psutil>=5.9.0 

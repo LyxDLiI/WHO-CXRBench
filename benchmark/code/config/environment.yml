@@ -1,0 +1,12 @@
+name: whocxrbench-pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - requests==2.32.3
+      - pytest==8.2.2
+      - python-dotenv==1.0.1
+      - PyYAML==6.0.2
+      - tqdm==4.66.5

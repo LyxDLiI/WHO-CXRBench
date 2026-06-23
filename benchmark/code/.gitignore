@@ -1,0 +1,11 @@
+.env
+outputs/
+data/mimic-cxr-jpg/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+*.pid
+stage3/*_checkpoint.json
+vllm_server.log
+vllm_server.pid

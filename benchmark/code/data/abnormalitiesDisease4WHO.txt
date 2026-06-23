@@ -1,0 +1,83 @@
+Abnormality,Mapping_Type,Hierarchical_Path
+Hematomediastinum,Clinical Disease,"# Chapter 14: Mediastinal disease -> ## Mediastinal haemorrhage (Fig 14.6)"
+pneumonia,Clinical Disease,# Chapter 7: Pneumonias
+pneumonia,Clinical Disease,# Chapter 7: Pneumonias -> ## Bacterial pneumonia
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Mycobacterial pneumonia"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Pulmonary tuberculosis"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Non-tuberculous mycobacteria (NTM)"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Species of mycobacterium"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Pneumococcal pneumonia"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Staphylococcal pneumonia"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Klebsiella pneumonia"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Eosinophilic pneumonia"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Organizing pneumonia"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### Infection"
+pneumonia,Clinical Disease,"# Chapter 7: Pneumonias -> ## Bacterial pneumonia -> ### The immunocompromised patient"
+pleural effusion,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Effusion
+pleural effusion,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Effusion -> ### Intrathoracic
+pleural effusion,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Effusion -> ### Extrathoracic
+pleural effusion,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Effusion -> ### Simple pleural effusion
+pleural effusion,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Effusion -> ### Subpulmonic pleural effusion
+pleural effusion,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Effusion -> ### Complex pleural effusion
+pleural effusion,Clinical Disease/Sign,"# Chapter 6: Lung tumours -> ## CXR features of malignant tumours -> ### Presence of a pleural effusion on the side of the lesion (Fig 6.6)"
+pleural effusion,Clinical Disease/Sign,# Chapter 11: Left heart failure -> ## Effusions
+Heart failure,Clinical Disease,# Chapter 11: Left heart failure
+Heart failure,Clinical Disease,# Chapter 11: Left heart failure -> ## Cardiomegally
+Heart failure,Clinical Disease,# Chapter 11: Left heart failure -> ## Interstitial oedema
+Heart failure,Clinical Disease,# Chapter 11: Left heart failure -> ## Blood diversion
+Heart failure,Clinical Disease,# Chapter 11: Left heart failure -> ## Consolidation
+Heart failure,Clinical Disease,# Chapter 11: Left heart failure -> ## Septal lines
+Heart failure,Clinical Disease,# Chapter 11: Left heart failure -> ## Effusions
+chronic obstructive pulmonary disease,Clinical Disease,# Chapter 8: Chronic airways disease
+chronic obstructive pulmonary disease,Clinical Disease,# Chapter 8: Chronic airways disease -> ## Chronic bronchitis
+chronic obstructive pulmonary disease,Clinical Disease,# Chapter 8: Chronic airways disease -> ## Emphysema
+chronic obstructive pulmonary disease,Clinical Disease,"# Chapter 8: Chronic airways disease -> ## Emphysema -> ### Centrilobular emphysema"
+chronic obstructive pulmonary disease,Clinical Disease,"# Chapter 8: Chronic airways disease -> ## Emphysema -> ### Bullous emphysema"
+chronic obstructive pulmonary disease,Clinical Disease,"# Chapter 8: Chronic airways disease -> ## Emphysema -> ### Para-septal emphysema"
+chronic obstructive pulmonary disease,Clinical Disease,"# Chapter 8: Chronic airways disease -> ## Emphysema -> ### Panacinar emphysema"
+diffuse alveolar hemorrhage,Clinical Disease/Sign,# Chapter 4: Pattern recognition -> ## Ground glass opacity
+diffuse alveolar hemorrhage,Clinical Disease/Sign,# Chapter 4: Pattern recognition -> ## Consolidation
+atelectasis,Clinical Disease/Sign,# Chapter 4: Pattern recognition -> ## Collapse
+atelectasis,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Right upper lobe (RUL) collapse"
+atelectasis,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Left upper lobe (LUL) collapse"
+atelectasis,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Right middle lobe (RML) collapse"
+atelectasis,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Right lower lobe (RLL) collapse"
+atelectasis,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Left lower lobe (LLL) collapse"
+atelectasis,Clinical Disease/Sign,"# Chapter 4: pattern recognition -> ## Collapse -> ### Whole lung collapse"
+lung cancer,Clinical Disease,# Chapter 6: Lung tumours
+lung cancer,Clinical Disease,# Chapter 6: Lung tumours -> ## CXR features of malignant tumours
+lung cancer,Clinical Disease,# Chapter 6: Lung tumours -> ## CXR features of benign tumours
+lung cancer,Clinical Disease,# Chapter 6: Lung tumours -> ## Metastases
+lung cancer,Clinical Disease,# Chapter 6: Lung tumours -> ## Bronchal carcinoma
+lung cancer,Clinical Disease,"# Chapter 6: Lung tumours -> ## Bronchal carcinoma -> ### Non-small cell lung cancer"
+lung cancer,Clinical Disease,"# Chapter 6: Lung tumours -> ## Bronchal carcinoma -> ### Small cell lung cancer"
+lung cancer,Clinical Disease,# Chapter 6: Lung tumours -> ## Non-mass like tumours
+lung cancer,Clinical Disease,# Chapter 6: Lung tumours -> ## Pleural tumours
+lung cancer,Clinical Disease,# Chapter 6: Lung tumours -> ## The solitary pulmonary nodule
+hydropneumothorax,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Pneumothorax
+hydropneumothorax,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Effusion
+hydropneumothorax,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Haemothorax
+hydropneumothorax,Clinical Disease/Sign,# Chapter 10: Pleural disease -> ## Empyema
+pneumothorax,Clinical Disease,# Chapter 10: Pleural disease -> ## Pneumothorax
+pneumothorax,Clinical Disease,"# Chapter 15: Trauma -> ## Pneumothorax, surgical emphysema, pneumoperitoneum (Fig 15.2)"
+interstitial lung disease,Clinical Disease,# Chapter 9: Diffuse lung disease
+interstitial lung disease,Clinical Disease,# Chapter 9: Diffuse lung disease -> ## Fibrosis
+interstitial lung disease,Clinical Disease,# Chapter 9: Diffuse lung disease -> ## Lymphangitis carcinomatosa
+interstitial lung disease,Clinical Disease,# Chapter 9: Diffuse lung disease -> ## LAM
+interstitial lung disease,Clinical Disease,# Chapter 9: Diffuse lung disease -> ## LCH
+interstitial lung disease,Clinical Disease,# Chapter 9: Diffuse lung disease -> ## Pulmonary sarcoid
+interstitial lung disease,Clinical Disease,"# Chapter 9: Diffuse lung disease -> ## Hypersensitivity pneumonitis (HP)"
+lobar/segmental collapse,Clinical Disease/Sign,# Chapter 4: Pattern recognition -> ## Collapse
+lobar/segmental collapse,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Right upper lobe (RUL) collapse"
+lobar/segmental collapse,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Left upper lobe (LUL) collapse"
+lobar/segmental collapse,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Right middle lobe (RML) collapse"
+lobar/segmental collapse,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Right lower lobe (RLL) collapse"
+lobar/segmental collapse,Clinical Disease/Sign,"# Chapter 4: Pattern recognition -> ## Collapse -> ### Left lower lobe (LLL) collapse"
+lobar/segmental collapse,Clinical Disease/Sign,"# Chapter 4: pattern recognition -> ## Collapse -> ### Whole lung collapse"
+goiter,Clinical Disease,"# Chapter 14: Mediastinal disease -> ## Mediastinal tumours"
+pulmonary edema,Clinical Disease/Sign,# Chapter 11: Left heart failure -> ## Cardiomegally
+pulmonary edema,Clinical Disease/Sign,# Chapter 11: Left heart failure -> ## Interstitial oedema
+pulmonary edema,Clinical Disease/Sign,# Chapter 11: Left heart failure -> ## Blood diversion
+pulmonary edema,Clinical Disease/Sign,# Chapter 11: Left heart failure -> ## Consolidation
+pulmonary edema,Clinical Disease/Sign,# Chapter 11: Left heart failure -> ## Septal lines
+pulmonary edema,Clinical Disease/Sign,# Chapter 11: Left heart failure -> ## Effusions

@@ -1,0 +1,111 @@
+Collapse
+Right upper lobe (RUL) collapse
+Left upper lobe (LUL) collapse
+Right middle lobe (RML) collapse
+Right lower lobe (RLL) collapse
+Left lower lobe (LLL) collapse
+Whole lung collapse
+Consolidation
+Ground glass opacity
+Masses
+Nodules
+Lines
+Band shadowing
+Curvilinear
+Septal lines (Kerley A, B lines)
+Reticulation
+Cavities
+Pectus excavatum
+Scoliosis
+Kyphosis
+Tumours in bone
+Cutaneous nodules
+Soft tissue asymmetry
+Sickle cell disease
+CXR features of malignant tumours
+Ill-defined/spiculated margins
+Rapid increase in size (Fig 6.2)
+Erosion of adjacent rib
+Presence of hilar/mediastinal adenopathy (Fig 6.5)
+Presence of a pleural effusion on the side of the lesion (Fig 6.6)
+Evidence of lymphangitis carcinomatosa (Fig 6.7)
+CXR features of benign tumours
+Low density, high fat content
+Calcification
+Slow or non-growing
+Metastases
+Bronchal carcinoma
+Non-small cell lung cancer
+Small cell lung cancer
+Non-mass like tumours
+Pleural tumours
+The solitary pulmonary nodule
+Further imaging
+Bacterial pneumonia
+Mycobacterial pneumonia
+Pulmonary tuberculosis
+Non-tuberculous mycobacteria (NTM)
+Species of mycobacterium
+Pneumococcal pneumonia
+Staphylococcal pneumonia
+Klebsiella pneumonia
+Eosinophilic pneumonia
+Organizing pneumonia
+infECTiOn
+The immunocompromised patient
+Asthma
+Chronic bronchitis
+Emphysema
+Centrilobular emphysema
+Bullous emphysema
+Para-septal emphysema
+Panacinar emphysema
+Bronchiectasis
+Cylindrical bronchiectasis
+Varicose bronchiectasis
+Cystic bronchiectasis
+Fibrosis
+Lymphangitis carcinomatosa
+Lymphangioleiomyomatosis (LAM)
+Langerhans cell histiocytosis (LCH)
+Pulmonary sarcoid
+Hypersensitivity pneumonitis (HP)
+Acute hypersensitivity pneumonitis
+Sub-acute hypersensitivity pneumonitis
+Chronic hypersensitivity pneumonitis
+Pneumothorax
+Effusion
+Intrathoracic
+Extrathoracic
+Simple pleural effusion
+Subpulmonic pleural effusion
+Complex pleural effusion
+Empyema
+Haemothorax
+Pleural calcification
+Mesothelioma
+Left heart failure
+Cardiomegally
+Interstitial oedema
+Blood diversion
+Consolidation
+Septal lines
+Effusions
+Coarctation of the aorta
+Fallot's tetralogy
+Cardiomegally
+Pericardial effusion
+Pericardial calcification
+Ventricular aneurysm
+Aortic aneurysm
+Pulmonary embolic disease
+Mediastinal tumours
+Hilar masses
+Lymphadenopathy (Fig 14.5)
+Mediastinal haemorrhage (Fig 14.6)
+Mediastinal abscess (Fig 14.7)
+Pneumothorax, surgical emphysema, pneumoperitoneum (Fig 15.2)
+Haemothorax (Fig 15.3, 15.4)
+Pneumopericardium and pneumomediastinum (Fig 15.5)
+Bullet wounds (Fig 15.3, 15.6, 15.7)
+Further reading

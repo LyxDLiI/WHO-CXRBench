@@ -1,0 +1,45 @@
+paths:
+  who_guideline_markdown: data/chest_x_ray_imaging.md
+  default_disease_list: data/default_diseases.txt
+  disease_hierarchy_mapping: data/abnormalitiesDisease4WHO.txt
+  mimic_cxr_jpg_root: data/mimic-cxr-jpg
+  stage3_disease_mapping: stage3/disease_in_MIMIC_mapto_WHO.csv
+  output_dir: outputs/pipeline
+
+stage1:
+  model: deepseek-ai/DeepSeek-R1
+  base_url: https://api.siliconflow.cn/v1
+  max_tokens: 2000
+  temperature: 0.3
+  top_p: 0.8
+  max_retries: 5
+  diseases:
+    - Bacterial pneumonia
+
+stage2:
+  model: deepseek-ai/DeepSeek-R1
+  base_url: https://api.siliconflow.cn/v1
+  max_tokens: 4096
+  temperature: 0.1
+  top_p: 0.9
+  max_retries: 3
+  max_fields: 1
+  enable_thinking: false
+  thinking_budget: 32768
+
+stage3:
+  server_url: http://localhost:8000
+  model: deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
+  cxr_rules_path: outputs/pipeline/stage2/stage2_grade_ra_all_rules.json
+  input_samples: examples/stage3_samples.json
+  output_file: outputs/pipeline/stage3/stage3_matched_samples.json
+  checkpoint_interval: 25
+  start_idx: 0
+  max_samples: 1
+  dry_run: false
+
+smoke_test:
+  dry_run: true
+  stage1_output: outputs/pipeline/stage1_rules.json
+  stage2_output_dir: outputs/pipeline/stage2
+  stage3_output_file: outputs/pipeline/stage3/stage3_matched_samples.json

@@ -1,0 +1,19 @@
+# Runtime outputs
+*.log
+*.pid
+*_checkpoint.json
+*_processed*.json
+
+# Local data and model caches
+mimic-cxr-jpg/
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Python cache
+__pycache__/
+*.pyc
